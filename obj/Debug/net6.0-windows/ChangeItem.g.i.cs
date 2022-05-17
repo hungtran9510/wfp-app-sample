@@ -53,7 +53,7 @@ namespace EditingCollections {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/EditingCollections;component/changeitem.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/EditingCollections;V1.0.0.0;component/changeitem.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\ChangeItem.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
